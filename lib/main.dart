@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../Bloc/note_bloc.dart';
 
+/* 
+Ce code configure un écran de démarrage avec une transition en fondu avant d'afficher la page principale de votre application, 
+MyHomePage, qui est enveloppée dans un MultiBlocProvider pour gérer l'état des notes avec le BLoC NoteBloc.
+*/
 void main() {
   runApp(MyApp());
 }

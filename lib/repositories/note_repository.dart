@@ -2,6 +2,11 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import '/model/note.dart';
 
+/*
+la classe NoteRepository encapsule la logique d'accès à la base de données SQLite pour les opérations d'insertion et de récupération des notes. 
+Elle assure également l'initialisation de la base de données lors de la première utilisation. 
+Cette classe est utilisée par le BLoC NoteBloc pour gérer les données de l'application.
+ */
 class NoteRepository {
   static Database? _database;
   final String tableName = 'notes';

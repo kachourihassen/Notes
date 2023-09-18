@@ -1,3 +1,10 @@
+/*  
+Cette classe Note est utilisée pour représenter une note dans l'application, avec des propriétés telles que l'identifiant,
+le titre et la description.
+Les méthodes toMap et factory Note.
+fromMap permettent de convertir cette classe en un format de données (et inversement) qui peut être utilisé pour le stockage et la manipulation des notes dans l'application
+*/
+
 class Note {
   int? id;
   String title;

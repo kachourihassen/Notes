@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../Bloc/note_bloc.dart';
 
+/* 
+, cette page affiche une liste de notes avec des fonctionnalités de recherche par titre et d'ajout de nouvelles notes. 
+Elle utilise le BLoC NoteBloc pour gérer les données des notes.
+*/
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
